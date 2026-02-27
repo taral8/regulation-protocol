@@ -57,23 +57,15 @@ export default function HomePage() {
               </FadeIn>
             </div>
 
-            {/* Right — nervous system illustration (subtle, blended) */}
+            {/* Right — nervous system illustration */}
             <FadeIn delay={0.2}>
-              <div className="hidden lg:block relative">
-                <div
-                  className="absolute inset-0 pointer-events-none z-10"
-                  style={{
-                    background:
-                      "radial-gradient(ellipse at center, transparent 40%, var(--color-sand-50) 75%)",
-                  }}
-                  aria-hidden="true"
-                />
+              <div className="hidden lg:block relative -mt-12 -mb-8">
                 <Image
                   src="/images/nervous-system-hero.png"
                   alt="Nervous system and brain neural pathways illustration"
                   width={640}
                   height={640}
-                  className="w-full h-auto max-w-[540px] mx-auto object-contain opacity-40 mix-blend-luminosity"
+                  className="w-full h-auto max-w-[540px] mx-auto object-contain opacity-60"
                   priority
                 />
               </div>
