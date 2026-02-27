@@ -1,10 +1,10 @@
+import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { Button } from "@/components/ui/Button";
 import { FAQAccordion } from "@/components/sections/FAQAccordion";
 import { FAQPageSchema } from "@/components/seo/FAQPageSchema";
 import { FadeIn } from "@/components/sections/FadeIn";
-import { SacredGeometry } from "@/components/sections/SacredGeometry";
 import { homepageFAQ } from "@/data/faq";
 
 export default function HomePage() {
@@ -13,29 +13,28 @@ export default function HomePage() {
       <FAQPageSchema items={homepageFAQ} />
 
       {/* ===== HERO ===== */}
-      <section className="relative bg-primary-900 pt-28 pb-16 md:pt-36 md:pb-28 overflow-hidden">
-        {/* Subtle radial warm glow behind content */}
+      <section className="relative bg-sand-50 pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden">
         <div
-          className="absolute inset-0"
+          className="absolute inset-0 opacity-30"
           style={{
             background:
-              "radial-gradient(ellipse at 25% 40%, rgba(200,168,124,0.12) 0%, transparent 55%), radial-gradient(ellipse at 75% 50%, rgba(180,147,95,0.08) 0%, transparent 50%)",
+              "radial-gradient(ellipse at 30% 20%, rgba(200,185,160,0.4) 0%, transparent 60%), radial-gradient(ellipse at 70% 80%, rgba(180,165,140,0.3) 0%, transparent 60%)",
           }}
           aria-hidden="true"
         />
 
         <Container className="relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left — copy */}
             <div>
               <FadeIn>
-                <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-sand-50 leading-[1.08] tracking-tight">
+                <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-900 leading-[1.08] tracking-tight">
                   Regulate Your Nervous System. Rebuild Your Identity Beyond
                   Survival.
                 </h1>
               </FadeIn>
               <FadeIn delay={0.1}>
-                <p className="mt-6 text-lg sm:text-xl text-sand-300 leading-relaxed max-w-2xl">
+                <p className="mt-6 text-lg sm:text-xl text-primary-600 leading-relaxed max-w-2xl">
                   For high-functioning, spiritually aware adults who look strong
                   on the outside but feel overwhelmed inside.
                 </p>
@@ -45,28 +44,32 @@ export default function HomePage() {
                   <Button href="/resources#reset" size="large">
                     Start the Baseline Reset
                   </Button>
-                  <Button
-                    href="/work-with-me"
-                    variant="secondary"
-                    size="large"
-                    className="border-sand-400/40 !text-sand-100 hover:!bg-sand-400/10 hover:!border-gold-400/60"
-                  >
+                  <Button href="/work-with-me" variant="secondary" size="large">
                     Work With Me
                   </Button>
                 </div>
               </FadeIn>
               <FadeIn delay={0.3}>
-                <p className="mt-6 text-sm text-sand-400">
+                <p className="mt-6 text-sm text-muted">
                   No hype. No shortcuts. Just regulated, embodied
                   transformation.
                 </p>
               </FadeIn>
             </div>
 
-            {/* Right — sacred geometry */}
-            <div className="hidden lg:flex items-center justify-center">
-              <SacredGeometry className="w-[480px] h-[480px] xl:w-[540px] xl:h-[540px]" />
-            </div>
+            {/* Right — nervous system illustration */}
+            <FadeIn delay={0.2}>
+              <div className="hidden lg:block relative">
+                <Image
+                  src="/images/nervous-system-hero.png"
+                  alt="Nervous system and brain neural pathways illustration"
+                  width={640}
+                  height={640}
+                  className="w-full h-auto max-w-[540px] mx-auto object-contain"
+                  priority
+                />
+              </div>
+            </FadeIn>
           </div>
         </Container>
       </section>
