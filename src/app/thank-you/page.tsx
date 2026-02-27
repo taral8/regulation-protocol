@@ -34,7 +34,7 @@ export default function ThankYouPage() {
             Thank you &mdash; we&apos;ll be in touch.
           </h1>
           <p className="mt-4 text-muted text-lg leading-relaxed">
-            Your request has been received. Kevin will personally review it and
+            Your request has been received. I&apos;ll personally review it and
             get back to you within 48 hours. In the meantime, take a breath.
             You&apos;ve taken the first step.
           </p>

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | Regulation Protocol",
   },
   description:
-    "I teach people how to regulate their nervous system so they can become someone new. Kevin Gonzales bridges neuroscience and spirituality for high-functioning adults moving from survival mode into embodied coherence.",
+    "I teach people how to regulate their nervous system so they can become someone new. I bridge neuroscience and spirituality for high-functioning adults moving from survival mode into embodied coherence.",
   openGraph: {
     type: "website",
     locale: "en_US",

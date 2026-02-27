@@ -112,7 +112,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                   size="large"
                   className="w-full justify-center"
                 >
-                  Work With Kevin
+                  Work With Me
                 </Button>
               </div>
             </div>

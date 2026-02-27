@@ -13,7 +13,7 @@ import { getAllPosts } from "@/data/blog/posts";
 export const metadata: Metadata = generatePageMetadata({
   title: "Resources",
   description:
-    "Free nervous system regulation resources from Kevin Gonzales. Take the Survival Mode Diagnostic and get the 3-Day Regulation Reset.",
+    "Free nervous system regulation resources I've created for you. Take the Survival Mode Diagnostic and get the 3-Day Regulation Reset.",
   path: "/resources",
 });
 
@@ -29,7 +29,8 @@ export default function ResourcesPage() {
               Start Here
             </h1>
             <p className="mt-4 text-lg text-muted leading-relaxed">
-              Free tools to begin regulating your nervous system today.
+              Free tools I&apos;ve created to help you begin regulating your
+              nervous system today.
             </p>
           </div>
         </Container>
@@ -117,7 +118,7 @@ export default function ResourcesPage() {
                 </h2>
                 <p className="mt-4 text-primary-800 leading-relaxed">
                   A structured 3-day introduction to nervous system regulation.
-                  The same foundation Kevin teaches in his coaching programs.
+                  The same foundation I teach in my coaching programs.
                 </p>
 
                 <div className="mt-6">
@@ -195,8 +196,8 @@ export default function ResourcesPage() {
 
       <CTASection
         headline="Ready for More?"
-        body="If you've done the diagnostic and the reset and want to go deeper, explore working with Kevin directly."
-        ctaText="Work With Kevin"
+        body="If you've done the diagnostic and the reset and want to go deeper, let's work together directly."
+        ctaText="Work With Me"
         ctaHref="/work-with-me"
       />
     </>

@@ -10,7 +10,7 @@ import { getAllPosts } from "@/data/blog/posts";
 export const metadata: Metadata = generatePageMetadata({
   title: "Blog",
   description:
-    "Articles on nervous system regulation, identity transformation, and embodied change from Kevin Gonzales at Regulation Protocol.",
+    "Articles I've written on nervous system regulation, identity transformation, and embodied change.",
   path: "/blog",
 });
 
@@ -26,8 +26,8 @@ export default function BlogPage() {
               The Regulation Protocol Blog
             </h1>
             <p className="mt-4 text-lg text-muted leading-relaxed">
-              Mechanism-focused articles on nervous system regulation, identity
-              transformation, and embodied change.
+              Mechanism-focused articles I&apos;ve written on nervous system
+              regulation, identity transformation, and embodied change.
             </p>
           </div>
         </Container>

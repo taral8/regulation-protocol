@@ -51,7 +51,7 @@ export default function HomePage() {
                     size="large"
                     className="border-sand-400/40 !text-sand-100 hover:!bg-sand-400/10 hover:!border-gold-400/60"
                   >
-                    Work With Kevin
+                    Work With Me
                   </Button>
                 </div>
               </FadeIn>
@@ -122,24 +122,24 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto">
             <FadeIn>
               <h2 className="font-serif text-3xl sm:text-4xl font-bold text-primary-900 text-center mb-6">
-                Why Kevin Is Different
+                Why I&apos;m Different
               </h2>
             </FadeIn>
             <FadeIn delay={0.1}>
               <p className="text-center text-lg text-primary-700 leading-relaxed max-w-2xl mx-auto">
-                Kevin&apos;s authority is embodied, not theoretical. He teaches
-                from nervous system coherence, not performance energy. Clients
-                feel that difference immediately.
+                My authority is embodied, not theoretical. I teach from nervous
+                system coherence, not performance energy. Clients feel that
+                difference immediately.
               </p>
             </FadeIn>
 
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
-                "Depth of embodied practice (7 years consistent meditation)",
-                "Emotional regulation under pressure",
-                "Calm during client turbulence",
-                "Mechanism explanation: neuroscience + spirituality without bypassing",
-                "Lived survival \u2192 coherence transformation",
+                "7 years of consistent, embodied meditation practice",
+                "I regulate under pressure — not just in quiet moments",
+                "I hold steady during client turbulence",
+                "I explain the neuroscience + spirituality without bypassing",
+                "I lived the survival → coherence transformation myself",
               ].map((item, i) => (
                 <FadeIn key={i} delay={i * 0.06}>
                   <div className="flex gap-3 items-start">
@@ -324,7 +324,7 @@ export default function HomePage() {
         <Container>
           <FadeIn>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold text-primary-900 text-center mb-12">
-              Ways To Work With Kevin
+              Ways To Work With Me
             </h2>
           </FadeIn>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -335,7 +335,7 @@ export default function HomePage() {
                 </h3>
                 <p className="mt-4 text-primary-700 leading-relaxed flex-1">
                   High-touch nervous system regulation and identity
-                  stabilization for high-functioning adults.
+                  stabilization. I work with you directly, one-on-one.
                 </p>
                 <div className="mt-8">
                   <Button href="/work-with-me#one-on-one">
@@ -350,8 +350,8 @@ export default function HomePage() {
                   3-Month Group Coaching
                 </h3>
                 <p className="mt-4 text-primary-700 leading-relaxed flex-1">
-                  A structured group container to reset your baseline, stabilize
-                  identity, and build coherence under pressure.
+                  A structured group container where I guide you through
+                  baseline reset, identity stabilization, and coherence.
                 </p>
                 <div className="mt-8">
                   <Button href="/work-with-me#group" variant="secondary">
@@ -418,6 +418,9 @@ export default function HomePage() {
                   Start the Baseline Reset
                 </Button>
               </div>
+              <p className="mt-4 text-lg text-sand-200 leading-relaxed">
+                I&apos;ll walk you through the first step myself.
+              </p>
             </div>
           </FadeIn>
         </Container>

@@ -11,7 +11,7 @@ import { FadeIn } from "@/components/sections/FadeIn";
 export const metadata: Metadata = generatePageMetadata({
   title: "About Kevin Gonzales",
   description:
-    "Kevin Gonzales bridges neuroscience and spirituality to help high-functioning adults move from survival mode into embodied coherence. 7 years of embodied practice.",
+    "I bridge neuroscience and spirituality to help high-functioning adults move from survival mode into embodied coherence. 7 years of embodied practice.",
   path: "/about",
 });
 
@@ -158,7 +158,7 @@ export default function AboutPage() {
         <Container size="narrow">
           <FadeIn>
             <h2 className="font-serif text-3xl font-bold text-primary-900 mb-8">
-              What Makes This Work Different
+              What Makes My Work Different
             </h2>
           </FadeIn>
           <div className="space-y-6">
@@ -194,7 +194,7 @@ export default function AboutPage() {
         <Container>
           <FadeIn>
             <h2 className="font-serif text-3xl font-bold text-primary-900 text-center mb-12">
-              What Clients Say
+              What My Clients Say
             </h2>
           </FadeIn>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
@@ -238,7 +238,7 @@ export default function AboutPage() {
         body="Start with the Baseline Reset and build a foundation for identity-level change."
         ctaText="Start the Baseline Reset"
         ctaHref="/resources#reset"
-        secondaryCta={{ text: "Work With Kevin", href: "/work-with-me" }}
+        secondaryCta={{ text: "Work With Me", href: "/work-with-me" }}
       />
     </>
   );

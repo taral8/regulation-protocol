@@ -13,9 +13,9 @@ import { FadeIn } from "@/components/sections/FadeIn";
 import { workWithMeFAQ } from "@/data/faq";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Work With Kevin",
+  title: "Work With Me",
   description:
-    "Apply for 1:1 Regulation Coaching or join the 3-Month Group Coaching waitlist. Nervous system regulation and identity transformation with Kevin Gonzales.",
+    "Apply for 1:1 Regulation Coaching or join the 3-Month Group Coaching waitlist. Nervous system regulation and identity transformation — I'll guide you personally.",
   path: "/work-with-me",
 });
 
@@ -28,11 +28,11 @@ export default function WorkWithMePage() {
         <Container>
           <div className="max-w-3xl">
             <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-primary-900 tracking-tight">
-              Work With Kevin
+              Work With Me
             </h1>
             <p className="mt-4 text-lg text-muted leading-relaxed">
-              Two paths to regulated, embodied transformation. Both built on The
-              Regulation Protocol&trade;.
+              I offer two paths to regulated, embodied transformation. Both
+              built on The Regulation Protocol&trade;.
             </p>
           </div>
         </Container>
@@ -59,7 +59,7 @@ export default function WorkWithMePage() {
                 <p className="mt-4 text-primary-800 leading-relaxed">
                   High-touch nervous system regulation and identity
                   stabilization for high-functioning adults. Private sessions
-                  with Kevin, personalized protocols, and ongoing support.
+                  with me, personalized protocols, and ongoing support.
                 </p>
 
                 <div className="mt-8 bg-sand-50 rounded-lg p-6 border border-stone-200">
@@ -78,7 +78,7 @@ export default function WorkWithMePage() {
                   </h3>
                   <ul className="space-y-3">
                     {[
-                      "Private coaching sessions with Kevin",
+                      "Private coaching sessions with me",
                       "Personalized nervous system regulation protocols",
                       "Identity stabilization practices",
                       "Support between sessions",
@@ -133,8 +133,9 @@ export default function WorkWithMePage() {
               </h2>
               <p className="mt-4 text-primary-800 leading-relaxed">
                 A structured group container to reset your baseline, stabilize
-                identity, and build coherence under pressure. Same Regulation
-                Protocol&trade; framework, shared experience.
+                identity, and build coherence under pressure. The same
+                Regulation Protocol&trade; framework I use in 1:1, in a shared
+                container.
               </p>
 
               <div className="mt-8 bg-white rounded-lg p-6 border border-stone-200 inline-block">

@@ -143,14 +143,14 @@ export default async function BlogPostPage({ params }: Props) {
                 Kevin Gonzales
               </p>
               <p className="text-sm text-muted mt-1">
-                Nervous system & identity transformation coach. Founder of
-                Regulation Protocol.
+                I&apos;m a nervous system &amp; identity transformation coach
+                and the founder of Regulation Protocol.
               </p>
               <Link
                 href="/about"
                 className="text-sm text-gold-600 hover:underline mt-1 inline-block"
               >
-                Learn more about Kevin
+                Learn more about me
               </Link>
             </div>
           </div>
@@ -186,7 +186,7 @@ export default async function BlogPostPage({ params }: Props) {
         body="Start with the Baseline Reset and build the foundation for identity-level change."
         ctaText="Start the Baseline Reset"
         ctaHref="/resources#reset"
-        secondaryCta={{ text: "Work With Kevin", href: "/work-with-me" }}
+        secondaryCta={{ text: "Work With Me", href: "/work-with-me" }}
       />
     </>
   );

@@ -47,7 +47,7 @@ export function ApplicationForm() {
           Application received.
         </p>
         <p className="mt-2 text-muted">
-          Kevin will personally review your application and respond within 48
+          I&apos;ll personally review your application and respond within 48
           hours.
         </p>
       </div>

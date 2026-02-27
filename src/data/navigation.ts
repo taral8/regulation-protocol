@@ -11,7 +11,7 @@ export const mainNavigation: NavItem[] = [
 export const footerNavigation = {
   quickLinks: [
     { label: "Home", href: "/" },
-    { label: "About Kevin", href: "/about" },
+    { label: "About Me", href: "/about" },
     { label: "Work With Me", href: "/work-with-me" },
     { label: "Resources", href: "/resources" },
     { label: "Blog", href: "/blog" },

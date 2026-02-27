@@ -40,7 +40,7 @@ export function Footer() {
                 <span className="font-normal text-sand-300">PROTOCOL</span>
               </Link>
               <p className="mt-4 text-sm text-sand-300 leading-relaxed">
-                Kevin Gonzales bridges neuroscience and spirituality to help
+                I bridge neuroscience and spirituality to help
                 high-functioning, spiritually curious adults move from survival
                 mode into embodied coherence.
               </p>
