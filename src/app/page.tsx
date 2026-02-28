@@ -78,8 +78,7 @@ export default function HomePage() {
       <section className="bg-white border-y border-stone-200 py-4">
         <Container>
           <p className="text-center text-sm text-muted font-sans tracking-wide">
-            7 years embodied practice &bull; 201 YouTube videos &bull; 8.5K+
-            subscribers &bull; 95% of revenue from YouTube
+            7 years embodied practice &bull; 201 YouTube videos
           </p>
         </Container>
       </section>
