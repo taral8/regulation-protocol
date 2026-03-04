@@ -64,12 +64,12 @@ export default function WorkWithMePage() {
 
                 <div className="mt-8 bg-sand-50 rounded-lg p-6 border border-stone-200">
                   <p className="text-sm text-muted uppercase tracking-wider font-sans font-medium">
-                    Investment
+                    Format
                   </p>
                   <p className="mt-1 font-serif text-2xl font-bold text-primary-900">
-                    Starting at $15,000
+                    3-Month Engagement
                   </p>
-                  <p className="text-sm text-muted">3-month engagement</p>
+                  <p className="text-sm text-muted">Pricing shared upon application</p>
                 </div>
 
                 <div className="mt-8">
@@ -140,12 +140,12 @@ export default function WorkWithMePage() {
 
               <div className="mt-8 bg-white rounded-lg p-6 border border-stone-200 inline-block">
                 <p className="text-sm text-muted uppercase tracking-wider font-sans font-medium">
-                  Next Cohort Pricing
+                  Format
                 </p>
                 <p className="mt-1 font-serif text-2xl font-bold text-primary-900">
-                  $5,000
+                  3-Month Program
                 </p>
-                <p className="text-sm text-muted">3-month program</p>
+                <p className="text-sm text-muted">Pricing shared when you join the waitlist</p>
               </div>
 
               <div className="mt-8">
