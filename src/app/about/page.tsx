@@ -47,7 +47,7 @@ export default function AboutPage() {
             <FadeIn>
               <div className="aspect-[4/5] relative rounded-xl overflow-hidden md:sticky md:top-28">
                 <Image
-                  src="/images/kevin-gonzales.jpg"
+                  src="/images/kevin gonzales.png"
                   alt="Kevin Gonzales — Nervous System & Identity Transformation Coach"
                   fill
                   className="object-cover object-top"
