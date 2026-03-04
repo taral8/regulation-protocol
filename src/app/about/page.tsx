@@ -45,19 +45,6 @@ export default function AboutPage() {
         <Container>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
             <FadeIn>
-              <div className="aspect-[4/5] relative rounded-xl overflow-hidden md:sticky md:top-28">
-                <Image
-                  src="/images/kevin gonzales.png"
-                  alt="Kevin Gonzales — Nervous System & Identity Transformation Coach"
-                  fill
-                  className="object-cover object-top"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  priority
-                />
-              </div>
-            </FadeIn>
-
-            <FadeIn delay={0.1}>
               <div className="space-y-6">
                 <h2 className="font-serif text-3xl font-bold text-primary-900">
                   From Survival to Coherence
@@ -94,6 +81,19 @@ export default function AboutPage() {
                   through shortcuts, but through the honest, embodied work of
                   becoming someone new.
                 </p>
+              </div>
+            </FadeIn>
+
+            <FadeIn delay={0.1}>
+              <div className="aspect-[4/5] relative rounded-xl overflow-hidden md:sticky md:top-28">
+                <Image
+                  src="/images/kevin-gonzales.png"
+                  alt="Kevin Gonzales — Nervous System & Identity Transformation Coach"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
+                />
               </div>
             </FadeIn>
           </div>
