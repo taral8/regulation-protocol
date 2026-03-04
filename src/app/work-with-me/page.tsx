@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { generatePageMetadata } from "@/lib/metadata";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Container } from "@/components/ui/Container";
@@ -26,14 +27,26 @@ export default function WorkWithMePage() {
 
       <section className="bg-sand-50 pt-28 pb-8 md:pt-32 md:pb-10">
         <Container>
-          <div className="max-w-3xl">
-            <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-primary-900 tracking-tight">
-              Work With Me
-            </h1>
-            <p className="mt-4 text-lg text-muted leading-relaxed">
-              I offer two paths to regulated, embodied transformation. Both
-              built on The Regulation Protocol&trade;.
-            </p>
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="flex-1">
+              <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-primary-900 tracking-tight">
+                Work With Me
+              </h1>
+              <p className="mt-4 text-lg text-muted leading-relaxed">
+                I offer two paths to regulated, embodied transformation. Both
+                built on The Regulation Protocol&trade;.
+              </p>
+            </div>
+            <div className="flex-shrink-0">
+              <Image
+                src="/images/kevin gonzales.png"
+                alt="Kevin Gonzales"
+                width={280}
+                height={280}
+                className="rounded-xl object-cover"
+                priority
+              />
+            </div>
           </div>
         </Container>
       </section>
