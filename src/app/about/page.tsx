@@ -41,7 +41,7 @@ export default function AboutPage() {
       </div>
 
       {/* Origin Story */}
-      <SectionWrapper background="white">
+      <SectionWrapper background="white" className="!pt-4 md:!pt-8">
         <Container>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
             <FadeIn>

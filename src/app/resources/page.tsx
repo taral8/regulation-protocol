@@ -43,7 +43,7 @@ export default function ResourcesPage() {
       </div>
 
       {/* Survival Mode Diagnostic */}
-      <SectionWrapper background="white" id="diagnostic">
+      <SectionWrapper background="white" id="diagnostic" className="!pt-4 md:!pt-8">
         <Container>
           <div className="max-w-3xl mx-auto">
             <FadeIn>

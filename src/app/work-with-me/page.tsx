@@ -45,7 +45,7 @@ export default function WorkWithMePage() {
       </div>
 
       {/* 1:1 Coaching */}
-      <SectionWrapper background="white" id="one-on-one">
+      <SectionWrapper background="white" id="one-on-one" className="!pt-4 md:!pt-8">
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 max-w-6xl mx-auto">
             <FadeIn>

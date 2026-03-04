@@ -30,7 +30,7 @@ export default function TermsPage() {
         </Container>
       </div>
 
-      <SectionWrapper background="white">
+      <SectionWrapper background="white" className="!pt-4 md:!pt-8">
         <Container size="narrow">
           <div className="prose prose-lg prose-brand max-w-none prose-headings:font-serif prose-headings:text-primary-900 prose-p:text-primary-800 prose-p:leading-relaxed">
             <h2>Agreement to Terms</h2>
